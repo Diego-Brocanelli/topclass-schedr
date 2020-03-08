@@ -1,5 +1,4 @@
 # topclass-schedr
-Class scheduling app.
 
 System requirements
 
