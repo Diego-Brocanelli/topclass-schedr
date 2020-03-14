@@ -1,6 +1,27 @@
-# topclass-schedr
+# Top Class Schedr
 
-System requirements
+PHP study project, for class manager.
+
+## Require
+ - PHP >= 7.0
+
+## Run project 
+
+Execute the command;
+
+```
+composer server
+```
+
+## Run Tests
+
+Execute the command;
+
+```
+composer tests
+```
+
+## Roadamp
 
 There are two classes during a time frame. (Same class all the time... Think Drivers Ed.)
 So there is Class A and Class B all the time, each class has 12 students and 2 instructors each.
@@ -15,12 +36,14 @@ many-to-many Instructor to Class issue.
 
 Here are the relationships as depicted in the attachment :-
 
+```
 Many-to-One Customer - to - Class
 Many-to-One Customer - to - Address
 Many-to-One Customer - to - Gender
 Many-to-One Customer - to - Score
 Many-to-One Instructor - to - RelationTableToClass
 Many-to-One Class - to - RelationTableToInstructor
+```
 
 I also need to keep track of how many students have filled a class, because this will determine if more 
 students of course could come into the class. 
