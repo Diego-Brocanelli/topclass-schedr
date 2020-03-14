@@ -1,0 +1,22 @@
+{
+    "name": "andrenobrecampos/topclass-schedr",
+    "description": "There are two classes during a time frame. (Same class all the time... Think Drivers Ed.) So there is Class A and Class B all the time, each class has 12 students and 2 instructors each. We need to collect detailed information on the student. Address, license so on.",
+    "type": "project",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TopClass\\": "src/app/"
+        }
+    },
+    
+    "require": {
+        "vlucas/phpdotenv": "^4.1@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "scripts":{
+        "server":"php -S localhost:8080 public/index.php",
+        "tests":"vendor/bin/phpunit test/"
+    }
+}

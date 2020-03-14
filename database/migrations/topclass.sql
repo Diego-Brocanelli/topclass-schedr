@@ -1,4 +1,3 @@
-CREATE DATABASE topclass_schedr;
 USE topclass_schedr;
 
 CREATE TABLE REF_SUBJECTS(

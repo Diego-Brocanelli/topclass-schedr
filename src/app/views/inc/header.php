@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/style.css">
-    <title><?php echo SITENAME; ?></title>
+    <link rel="stylesheet" href="<?= getenv('URLROOT'); ?>/css/style.css">
+    <title><?= getenv('SITENAME'); ?></title>
 </head>
 <body>
